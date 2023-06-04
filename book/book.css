@@ -1,0 +1,93 @@
+.book {
+  flex: 12;
+}
+
+.bookWrapper {
+  padding: 30px 80px;
+  position: relative;
+}
+
+.bookTitle {
+  text-align: center;
+}
+
+.bookEle {
+  display: flex;
+  margin-top: 20px;
+  gap: 100px;
+}
+
+.bookLeft,
+.bookRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  /* align-items: center; */
+}
+
+.leftRow {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 80px;
+}
+
+.leftRowElement {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.leftRowElementInput {
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.leftRowElementInput:focus,
+.leftRowElementTextarea:focus {
+  outline: none;
+}
+
+.leftRowElementTextarea {
+  width: 100%;
+}
+
+.bookRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fileInputLabel {
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* background-color: rgba(21, 1, 1, 0.086); */
+  /* color: rgb(29, 1, 1); */
+}
+
+.bookImg {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+.bookButton {
+  position: absolute;
+  bottom: -30px;
+  right: 90px;
+  padding: 5px 15px;
+  background-color: teal;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
